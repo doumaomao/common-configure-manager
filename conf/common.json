@@ -1,0 +1,47 @@
+{
+	"common": {
+		"common_domain_1": {
+			"common_file": [
+				"\/etc\/users\/doumaomao\/css",
+				"\/etc\/users\/doumaomao\/template"
+			],
+			"common_map": {
+				"doumaomao": "test",
+				"doumaomao_1": "test_2"
+			},
+			"common_filter": [
+				".js",
+				".html",
+				".css",
+				".conf"
+			],
+			"common_exclude": [
+				"\/etc\/users\/doumaomao\/css\/test.css",
+				"\/etc\/users\/doumaomao\/css\/test.js"
+			],
+			"description": "test_1"
+		},
+		"common_domain_2": {
+			"common_file": [
+				"\/etc\/users\/doumaomao"
+			],
+			"common_map": {
+				"doumaomao.github.io": "doumaomao:8000"
+			"common_filter": [
+				".js",
+				".html",
+				".css",
+				".php",
+				".text",
+				".xml",
+				".htm",
+				".ini",
+				".conf"
+			],
+			"common_exclude": [
+				"NULL"
+			],
+			"description": "test_2"
+		}
+	}
+}
